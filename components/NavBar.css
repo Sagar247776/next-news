@@ -1,0 +1,27 @@
+.head {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  box-shadow: 0 4px #00000017;
+}
+
+input {
+  width: 60%;
+  padding: 12px;
+}
+
+button {
+  background-color: rgba(255, 0, 0, 0.704);
+  color: white;
+  padding: 11px 20px;
+  margin-left: 5px;
+  border: rgba(255, 0, 0, 0.704);
+  cursor: pointer;
+  font-size: large;
+}
+
+button:hover {
+  background-color: red;
+}
